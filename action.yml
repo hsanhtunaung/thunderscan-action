@@ -30,3 +30,7 @@ runs:
         API_TOKEN: ${{ inputs.api_token }}
         API_URL: ${{ inputs.api_url }}
         ENGINES: ${{ inputs.engines }}
+        
+        - name: DefenseCode ThunderScan Action
+  uses: defensecode/thunderscan-action@v1.0
+
